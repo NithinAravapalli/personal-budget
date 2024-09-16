@@ -1,0 +1,35 @@
+{
+    "myBudget": [
+    {
+    "title" : "Food",
+    "budget" : "40"
+    },
+    {"title" : "House Rent",
+    "budget" : "250"},
+    {"title" : "Transport",
+    "budget" : "90"},
+    {
+        "title" : "Water",
+        "budget" : "50"
+    },
+    {
+        "title" : "WiFi",
+        "budget" : "30"
+    },
+    {
+        "title" : "Cloths",
+        "budget" : "100"
+    },
+    {
+        "title" : "Travel",
+        "budget": "120"
+    },
+    {
+        "title" : "others",
+        "budget" : "30"
+    }
+  
+    
+  ]
+    
+  }
