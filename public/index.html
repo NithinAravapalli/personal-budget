@@ -157,7 +157,8 @@
                     })
                 }
                 createChart();
-                populateD3jsChart();
+                change(dataSource.myBudget)
+                //populateD3jsChart();
             })
         }
 
@@ -198,12 +199,12 @@
         .range(["#3F51B5", "#FF9800", "#2196F3", "#FF5722", "#FFEB3B", "#E91E63", "#4CAF50", "#8BC34A", "#9C27B0"]);
 
     // Load the data from the JSON file
-    d3.json('budget.json', function (error, data) {
-        if (error) throw error;
+    // d3.json('budget.json', function (error, data) {
+    //     if (error) throw error;
 
-        // Update the chart with the JSON data
-        change(data);
-    });
+    //     // Update the chart with the JSON data
+    //     change(data);
+    //});
 
     function change(data) {
         var slice = svg.select(".slices").selectAll("path.slice")
